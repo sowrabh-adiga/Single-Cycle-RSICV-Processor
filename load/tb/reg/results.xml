@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1767669531" />
+    <testcase name="random_write_read_test" classname="regTest" file="/home/kali/riscv/load/tb/reg/regTest.py" lineno="7" time="0.1278245449066162" sim_time_ns="10032.0" ratio_time="78482.57943987988" />
+  </testsuite>
+</testsuites>

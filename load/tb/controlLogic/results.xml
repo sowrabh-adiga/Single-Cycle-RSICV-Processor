@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1767706068" />
+    <testcase name="control_test" classname="controlTest" file="/home/kali/riscv/load/tb/controlLogic/controlTest.py" lineno="9" time="0.0018529891967773438" sim_time_ns="4.0" ratio_time="2158.6742151312405" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768115525" />
+    <testcase name="add_test" classname="aluTest" file="/home/kali/riscv/Rtype_and_or/tb/alu/aluTest.py" lineno="6" time="0.04206395149230957" sim_time_ns="1001.0" ratio_time="23797.09857223019" />
+    <testcase name="default_test" classname="aluTest" file="/home/kali/riscv/Rtype_and_or/tb/alu/aluTest.py" lineno="21" time="0.0006642341613769531" sim_time_ns="2.0" ratio_time="3010.986360373295" />
+    <testcase name="zero_test" classname="aluTest" file="/home/kali/riscv/Rtype_and_or/tb/alu/aluTest.py" lineno="34" time="0.0008533000946044922" sim_time_ns="2.0" ratio_time="2343.841296451523" />
+    <testcase name="and_test" classname="aluTest" file="/home/kali/riscv/Rtype_and_or/tb/alu/aluTest.py" lineno="45" time="0.03236699104309082" sim_time_ns="1000.9999999999999" ratio_time="30926.569561790548" />
+    <testcase name="or_test" classname="aluTest" file="/home/kali/riscv/Rtype_and_or/tb/alu/aluTest.py" lineno="59" time="0.0534670352935791" sim_time_ns="1001.0" ratio_time="18721.816059253444" />
+  </testsuite>
+</testsuites>

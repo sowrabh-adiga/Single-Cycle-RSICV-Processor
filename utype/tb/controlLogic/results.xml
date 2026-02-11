@@ -1,0 +1,14 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768285377" />
+    <testcase name="lw_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="18" time="0.0015125274658203125" sim_time_ns="2.0" ratio_time="1322.2900378310214" />
+    <testcase name="sw_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="35" time="0.0006206035614013672" sim_time_ns="11.0" ratio_time="17724.680752977332" />
+    <testcase name="add_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="50" time="0.00048661231994628906" sim_time_ns="10.999999999999998" ratio_time="22605.264086232237" />
+    <testcase name="and_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="67" time="0.0014615058898925781" sim_time_ns="13.0" ratio_time="8894.935073409462" />
+    <testcase name="or_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="85" time="0.0004649162292480469" sim_time_ns="13.0" ratio_time="27962.02666666667" />
+    <testcase name="beq_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="99" time="0.001253366470336914" sim_time_ns="16.999999999999993" ratio_time="13563.471181282095" />
+    <testcase name="jal_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="123" time="0.0006279945373535156" sim_time_ns="13.0" ratio_time="20700.817008352315" />
+    <testcase name="addi_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="139" time="0.0004904270172119141" sim_time_ns="13.0" ratio_time="26507.511910549343" />
+    <testcase name="auipc_control_test" classname="controlTest" file="/home/kali/riscv/utype/tb/controlLogic/controlTest.py" lineno="158" time="0.00031685829162597656" sim_time_ns="13.0" ratio_time="41027.8043641836" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+// alu.sv
+module alu (
+    // IN
+    input logic [3:0] alu_control,
+    input logic [31:0] src1,
+    input logic [31:0] src2,
+    // OUT
+    output logic [31:0] alu_result,
+    output logic zero
+);
+
+always_comb begin
+    case (alu_control)
+    	// ADD +
+        4'b0000 : alu_result = src1 + src2;
+        // AND &
+        4'b0010 : alu_result = src1 & src2;
+        // OR |
+        4'b0011 : alu_result = src1 | src2;
+        // SUB (rs1 - rs2), 2's compliment
+        4'b0001 : alu_result = src1 + (~src2 + 1'b1);
+        // LESS THAN COMPARE STUFF (src1 < src2)
+        4'b0101 : alu_result = {31'b0, $signed(src1) < $signed(src2)};
+        // LESS THAN COMPARE STUFF (src1 < src2) (UNSIGNED VERSION)
+        4'b0111 : alu_result = {31'b0, src1 < src2};
+        default: alu_result = 32'b0;
+    endcase
+end
+
+assign zero = alu_result == 32'b0;
+    
+endmodule

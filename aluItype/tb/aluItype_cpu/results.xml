@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768283519" />
+    <testcase name="cpu_instruction_tests" classname="test_aluItype_cpu" file="/home/kali/riscv/aluItype/tb/aluItype_cpu/test_aluItype_cpu.py" lineno="26" time="0.005423307418823242" sim_time_ns="23.0" ratio_time="4240.954499494439" />
+  </testsuite>
+</testsuites>

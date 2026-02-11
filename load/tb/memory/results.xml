@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1767862255" />
+    <testcase name="memory_data_test" classname="test_memory" file="/home/kali/riscv/load/tb/test_memory.py" lineno="1" time="0.005196332931518555" sim_time_ns="200.0" ratio_time="38488.68089011241" />
+  </testsuite>
+</testsuites>

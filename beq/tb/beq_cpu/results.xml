@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768214404" />
+    <testcase name="cpu_instruction_tests" classname="test_beq_cpu" file="/home/kali/riscv/beq/tb/beq_cpu/test_beq_cpu.py" lineno="26" time="0.0029053688049316406" sim_time_ns="16.0" ratio_time="5507.046118496635" />
+  </testsuite>
+</testsuites>

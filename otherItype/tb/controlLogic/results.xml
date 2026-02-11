@@ -1,0 +1,17 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768368719" />
+    <testcase name="lw_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="18" time="0.0017578601837158203" sim_time_ns="2.0" ratio_time="1137.746914417469" />
+    <testcase name="sw_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="35" time="0.0006649494171142578" sim_time_ns="11.0" ratio_time="16542.61168877734" />
+    <testcase name="add_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="50" time="0.0006301403045654297" sim_time_ns="10.999999999999998" ratio_time="17456.429814604613" />
+    <testcase name="and_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="67" time="0.001918792724609375" sim_time_ns="13.0" ratio_time="6775.093439363817" />
+    <testcase name="or_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="85" time="0.0008962154388427734" sim_time_ns="13.0" ratio_time="14505.440808725725" />
+    <testcase name="beq_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="99" time="0.0018146038055419922" sim_time_ns="16.999999999999993" ratio_time="9368.436210747599" />
+    <testcase name="jal_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="123" time="0.0010068416595458984" sim_time_ns="13.0" ratio_time="12911.662798958087" />
+    <testcase name="addi_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="139" time="0.0008389949798583984" sim_time_ns="13.0" ratio_time="15494.729184427395" />
+    <testcase name="auipc_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="158" time="0.0010573863983154297" sim_time_ns="13.0" ratio_time="12294.464937993236" />
+    <testcase name="slti_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="175" time="0.000736236572265625" sim_time_ns="13.0" ratio_time="17657.36787564767" />
+    <testcase name="sltiu_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="195" time="0.0007791519165039062" sim_time_ns="12.999999999999986" ratio_time="16684.807833537314" />
+    <testcase name="xori_control_test" classname="controlTest" file="/home/kali/riscv/otherItype/tb/controlLogic/controlTest.py" lineno="214" time="0.0008001327514648438" sim_time_ns="13.0" ratio_time="16247.303933253874" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1767694899" />
+    <testcase name="random_write_read_test" classname="signExtTest" file="/home/kali/riscv/load/tb/signExt/signExtTest.py" lineno="7" time="0.001706838607788086" sim_time_ns="4.0" ratio_time="2343.5138985891886" />
+  </testsuite>
+</testsuites>

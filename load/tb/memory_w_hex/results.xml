@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1767864554" />
+    <testcase name="cpu_init_test" classname="mem_test" file="/home/kali/riscv/load/tb/memory_w_hex/mem_test.py" lineno="25" time="0.003166675567626953" sim_time_ns="0.0" ratio_time="0.0">
+      <failure error_type="AssertionError" error_msg="assert LogicArray('00000000000000000000000000000000', Range(31, 'downto', 0)) == '00000000100000000010100100000011'&#10; +  where LogicArray('00000000000000000000000000000000', Range(31, 'downto', 0)) = LogicArrayObject(memory.read_data).value&#10; +    where LogicArrayObject(memory.read_data) = HierarchyObject(memory).read_data" />
+    </testcase>
+  </testsuite>
+</testsuites>

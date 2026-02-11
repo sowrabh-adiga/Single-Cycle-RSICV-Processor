@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768284715" />
+    <testcase name="random_write_read_test" classname="signExtTest" file="/home/kali/riscv/utype/tb/signExt/signExtTest.py" lineno="8" time="0.00279998779296875" sim_time_ns="4.0" ratio_time="1428.5776566757493" />
+    <testcase name="signext_s_type_test" classname="signExtTest" file="/home/kali/riscv/utype/tb/signExt/signExtTest.py" lineno="41" time="0.009409904479980469" sim_time_ns="10300.0" ratio_time="1094591.344886997" />
+    <testcase name="signext_b_type_test" classname="signExtTest" file="/home/kali/riscv/utype/tb/signExt/signExtTest.py" lineno="72" time="0.01445627212524414" sim_time_ns="20400.0" ratio_time="1411152.185242603" />
+    <testcase name="signext_j_type_test" classname="signExtTest" file="/home/kali/riscv/utype/tb/signExt/signExtTest.py" lineno="108" time="0.011646032333374023" sim_time_ns="20399.999999999996" ratio_time="1751669.531393944" />
+    <testcase name="signext_u_type_test" classname="signExtTest" file="/home/kali/riscv/utype/tb/signExt/signExtTest.py" lineno="144" time="0.008197307586669922" sim_time_ns="10200.0" ratio_time="1244310.99994183" />
+  </testsuite>
+</testsuites>

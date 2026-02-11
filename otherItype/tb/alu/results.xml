@@ -1,0 +1,13 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768363921" />
+    <testcase name="add_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="12" time="0.08326387405395508" sim_time_ns="1001.0" ratio_time="12022.020490559338" />
+    <testcase name="default_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="27" time="0.001659393310546875" sim_time_ns="2.0" ratio_time="1205.2597701149425" />
+    <testcase name="zero_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="40" time="0.0010142326354980469" sim_time_ns="2.0" ratio_time="1971.9341795956746" />
+    <testcase name="and_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="51" time="0.03131818771362305" sim_time_ns="1000.9999999999999" ratio_time="31962.258134259046" />
+    <testcase name="or_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="65" time="0.09375405311584473" sim_time_ns="1001.0" ratio_time="10676.871737621206" />
+    <testcase name="sub_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="79" time="0.05452609062194824" sim_time_ns="1001.0" ratio_time="18358.183918600433" />
+    <testcase name="slt_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="95" time="0.04000735282897949" sim_time_ns="1001.0000000000005" ratio_time="25020.40073181053" />
+    <testcase name="sltu_test" classname="aluTest" file="/home/kali/riscv/otherItype/tb/alu/aluTest.py" lineno="123" time="0.04355621337890625" sim_time_ns="1001.0" ratio_time="22981.795761078996" />
+  </testsuite>
+</testsuites>

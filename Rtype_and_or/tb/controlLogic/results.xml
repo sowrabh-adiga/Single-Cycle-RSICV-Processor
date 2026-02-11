@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768126362" />
+    <testcase name="lw_control_test" classname="controlTest" file="/home/kali/riscv/Rtype_and_or/tb/controlLogic/controlTest.py" lineno="17" time="0.002599000930786133" sim_time_ns="2.0" ratio_time="769.5264654618842" />
+    <testcase name="sw_control_test" classname="controlTest" file="/home/kali/riscv/Rtype_and_or/tb/controlLogic/controlTest.py" lineno="32" time="0.00042724609375" sim_time_ns="11.0" ratio_time="25746.285714285714" />
+    <testcase name="add_control_test" classname="controlTest" file="/home/kali/riscv/Rtype_and_or/tb/controlLogic/controlTest.py" lineno="45" time="0.0003604888916015625" sim_time_ns="10.999999999999998" ratio_time="30514.116402116397" />
+    <testcase name="and_control_test" classname="controlTest" file="/home/kali/riscv/Rtype_and_or/tb/controlLogic/controlTest.py" lineno="60" time="0.0005509853363037109" sim_time_ns="13.0" ratio_time="23594.094331458244" />
+    <testcase name="or_control_test" classname="controlTest" file="/home/kali/riscv/Rtype_and_or/tb/controlLogic/controlTest.py" lineno="76" time="0.00045108795166015625" sim_time_ns="13.0" ratio_time="28819.21353065539" />
+  </testsuite>
+</testsuites>

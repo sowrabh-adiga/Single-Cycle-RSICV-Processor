@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768369372" />
+    <testcase name="cpu_instruction_tests" classname="test_otherItype_cpu" file="/home/kali/riscv/otherItype/tb/otherItype_cpu/test_otherItype_cpu.py" lineno="26" time="0.007510185241699219" sim_time_ns="30.0" ratio_time="3994.575238095238">
+      <failure error_type="AssertionError" error_msg="assert '00000000' == '21524445'&#10; +  where '00000000' = binary_to_hex(LogicArray('00000000000000000000000000000000', Range(31, 'downto', 0)))&#10; +    where LogicArray('00000000000000000000000000000000', Range(31, 'downto', 0)) = LogicArrayObject(cpu.regfile.registers[18]).value" />
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1768283428" />
+    <testcase name="lw_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="18" time="0.001379251480102539" sim_time_ns="2.0" ratio_time="1450.0618841832325" />
+    <testcase name="sw_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="35" time="0.0013592243194580078" sim_time_ns="11.0" ratio_time="8092.851078758113" />
+    <testcase name="add_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="50" time="0.0012128353118896484" sim_time_ns="10.999999999999998" ratio_time="9069.656772164339" />
+    <testcase name="and_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="67" time="0.002008676528930664" sim_time_ns="13.0" ratio_time="6471.923086053413" />
+    <testcase name="or_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="85" time="0.001177072525024414" sim_time_ns="13.0" ratio_time="11044.34919991898" />
+    <testcase name="beq_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="99" time="0.0014896392822265625" sim_time_ns="16.999999999999993" ratio_time="11412.158770806653" />
+    <testcase name="jal_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="123" time="0.0008394718170166016" sim_time_ns="13.0" ratio_time="15485.92786140301" />
+    <testcase name="addi_control_test" classname="controlTest" file="/home/kali/riscv/aluItype/tb/controlLogic/controlTest.py" lineno="139" time="0.0003311634063720703" sim_time_ns="13.0" ratio_time="39255.54499640029" />
+  </testsuite>
+</testsuites>
